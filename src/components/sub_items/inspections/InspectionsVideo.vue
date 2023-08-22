@@ -1,10 +1,15 @@
 <template>
   <div>
-    <img src="../../../assets/video/agr_video.png" alt="" style="width: 100%"/>
+    <video src="../../../assets/video/inspection.mp4"
+           muted
+           loop
+           autoplay
+           controls
+           style="width: 100%"></video>
   </div>
 </template>
 <script>
 export default {
-  name:'InspactionsVideo'
+  name:'InspectionsVideo'
 }
 </script>

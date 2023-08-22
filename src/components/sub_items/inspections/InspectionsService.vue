@@ -1,41 +1,48 @@
 <template>
-  <div class="inspaction_benefit">
-    <div class="inspaction_benefit_content">
-      <h2 class="inspaction_benefit_heading">Benefits of Our Drone Services</h2>
+  <div class="inspection_benefit">
+    <div class="inspection_benefit_content">
+      <h2 class="inspection_benefit_heading">Benefits of Our Drone Services</h2>
       <div>
-        <div class="inspaction_benefit_sections">
-          <h3 class="inspaction_sections_heading">Aerial Site Surveys:</h3>
-          <p class="inspaction_sections_desc"> Our drones capture high-resolution imagery of landscaping sites, enabling
-            precise measurements, accurate topographic mapping, and detailed site analysis. This information facilitates
-            better planning and design of landscaping projects.</p>
+        <div class="inspection_benefit_sections">
+          <h3 class="inspection_sections_heading">Roof Inspections:</h3>
+          <p class="inspection_sections_desc"> Our drones can perform detailed aerial inspections of roofs, capturing
+            high-resolution images and videos. This allows for close examination of hard-to-reach areas, identification
+            of potential damage, and assessment of overall roof condition.</p>
         </div>
 
-        <div class="inspaction_benefit_sections">
-          <h3 class="inspaction_sections_heading">3D Modeling and Visualization:</h3>
-          <p class="inspaction_sections_desc"> We utilize advanced photogrammetry techniques to generate stunning 3D
-            models and visualizations of landscapes. These visuals help clients visualize the final outcome, make design
-            decisions, and showcase their projects to stakeholders.</p>
+        <div class="inspection_benefit_sections">
+          <h3 class="inspection_sections_heading">Solar Panel Inspections:</h3>
+          <p class="inspection_sections_desc"> We offer precise inspections of solar installations using drones equipped
+            with thermal imaging sensors. This enables identification of malfunctioning panels, hotspots, and efficiency
+            issues, maximizing solar energy production.</p>
         </div>
 
-        <div class="inspaction_benefit_sections">
-          <h3 class="inspaction_sections_heading">Plant Health and Growth Monitoring:</h3>
-          <p class="inspaction_sections_desc"> By capturing aerial imagery on a regular basis, we enable clients to
-            monitor the health and growth of plants and vegetation. This information helps in optimizing watering,
-            fertilization, and maintenance practices.</p>
+        <div class="inspection_benefit_sections">
+          <h3 class="inspection_sections_heading">Efficient and Accurate Data Collection:</h3>
+          <p class="inspection_sections_desc"> By utilizing drones, we can quickly and accurately gather comprehensive
+            data about roofs and solar installations. This data includes imagery, thermal readings, and other sensor
+            data, providing a holistic view of the inspected structures.</p>
         </div>
 
-        <div class="inspaction_benefit_sections">
-          <h3 class="inspaction_sections_heading">Irrigation Analysis:</h3>
-          <p class="inspaction_sections_desc"> Our drones can provide valuable insights into the efficiency and
-            effectiveness of irrigation systems. By identifying areas of over or under-watering, clients can optimize
-            irrigation strategies, conserve water, and enhance plant health.</p>
+        <div class="inspection_benefit_sections">
+          <h3 class="inspection_sections_heading">Early Issue Detection:</h3>
+          <p class="inspection_sections_desc"> Our drone inspections can identify early signs of roof deterioration,
+            water damage, loose shingles, faulty wiring, or other issues that might require attention. Early detection
+            allows for timely repairs and helps prevent more extensive damage or system failures.</p>
         </div>
 
-        <div class="inspaction_benefit_sections">
-          <h3 class="inspaction_sections_heading">Construction Monitoring:</h3>
-          <p class="inspaction_sections_desc"> Our drones offer real-time monitoring of landscaping construction
-            activities. This allows project managers to assess progress, track equipment and material utilization, and
-            ensure adherence to design plans.</p>
+        <div class="inspection_benefit_sections">
+          <h3 class="inspection_sections_heading">Improved Safety:</h3>
+          <p class="inspection_sections_desc"> Using drones for inspections eliminates or reduces the need for manual
+            inspections performed by workers on roofs or elevated structures. This helps minimize safety risks and
+            ensures the well-being of your personnel.</p>
+        </div>
+
+        <div class="inspection_benefit_sections">
+          <h3 class="inspection_sections_heading">Cost and Time Savings:</h3>
+          <p class="inspection_sections_desc"> Our drone services provide efficient inspections, reducing the time
+            required for inspections and minimizing labor costs. By identifying issues early on, you can avoid costly
+            repairs or replacements and optimize maintenance schedules.</p>
         </div>
       </div>
     </div>
@@ -43,58 +50,77 @@
 </template>
 <script>
 export default {
-  name: 'InspactionsService'
+  name: 'InspectionsService'
 }
 </script>
 <style>
-.landscape_benefit {
+.inspection_benefit {
   padding: 4%;
 }
 
-.landscape_benefit_content {
+.inspection_benefit_content {
   border-radius: 5px;
-  background: #FCFAFA;
-  box-shadow: 0 4px 61px 0 rgba(0, 0, 0, 0.30);
+  background: var(--bg_white);
+  box-shadow: var(--shadow_61);
   height: 100%;
   padding: 4% 10% 4% 10%;
   text-align: center;
 }
 
-.landscape_benefit_heading {
-  font-family: Jockey One, serif;
+.inspection_benefit_heading {
+  font-family: Jockey One,serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  background: linear-gradient(135deg, #000FFF 0%, #1A6C8D 100%);
+  background: var(--background_linear);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 3%;
 }
 
-.landscape_sections_heading {
-  font-family: Jockey One, serif;
+.inspection_sections_heading {
+  font-family: Jockey One,serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  background: linear-gradient(135deg, #333 0%, #282626 100%);
+  background: var(--background_linear_black);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.landscape_sections_desc {
+.inspection_sections_desc {
   text-align: center;
-  font-family: Jockey One, serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: normal;
-  background: linear-gradient(135deg, #333 0%, #282626 100%);
+  background: var(--background_linear_black);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 400px) {
+  .inspection_sections_desc{
+    font-size: 15px;
+  }
+
+  .inspection_sections_heading{
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 320px) {
+  .inspection_sections_desc{
+    font-size: 13px;
+  }
+
+  .inspection_sections_heading{
+    font-size: 21px;
+  }
 }
 </style>

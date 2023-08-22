@@ -1,0 +1,14 @@
+:root {
+    --color_white: white;
+    --color_blue: #000FFF;
+    --bg_white: #FCFAFA;
+    --background_linear: linear-gradient(135deg, #000FFF 0%, #1A6C8D 100%);
+    --background_linear_light: linear-gradient(135deg, #000FFF 0%, #55CAFA 100%);
+    --background_linear_black: linear-gradient(135deg, #333 0%, #282626 100%);
+    --background_linear_black_light: linear-gradient(135deg, rgba(255, 255, 255, 0.40) 0%, rgba(234, 229, 229, 0.00) 100%);
+    --shadow_8: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+    --shadow_11: 0 4px 11px 0 rgba(0, 0, 0, 0.25);
+    --shadow_61: 0 4px 61px 0 rgba(0, 0, 0, 0.30);
+    --shadow_16: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    --shadow_10: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
