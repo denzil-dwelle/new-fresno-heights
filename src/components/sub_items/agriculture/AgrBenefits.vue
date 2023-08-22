@@ -70,7 +70,8 @@ export default {
   font-weight: 400;
   line-height: normal;
   background: var(--background_linear_black);
-  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
 }
 

@@ -4,7 +4,7 @@
     <div class="agriculture_desc">
       <img src="../../../assets/services/agriculture.png" alt="" class="agr_img"/>
       <div class="agr_right_part">
-        <p class="agr_text">Welcome to Fresno Hights, where we offer innovative drone solutions for agriculture
+        <p class="agr_text">Welcome to Fresno Heights, where we offer innovative drone solutions for agriculture
           projects. Our specialized
           drone services can revolutionize farming practices, providing farmers with valuable data, insights, and
           increased operational efficiency.
