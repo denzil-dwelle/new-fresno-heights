@@ -24,7 +24,7 @@
               stabilizing technology to ensure the highest quality visuals. Our equipment allows us to capture stunning
               shots that will be cherished for a lifetime.</p>
           </div>
-          <img v-if="windowWidth > 1000" src="@/assets/why-choose-us/img1.png" class="choose_us_img" alt=""/>
+          <img v-if="windowWidth > 1000" src="@/assets/why-choose-us/img2.png" class="choose_us_img" alt=""/>
           <img v-else src="@/assets/why-choose-us/img2_small.png" class="choose_us_img" alt=""/>
         </div>
         <div class="hr_rotate2"></div>
@@ -172,7 +172,7 @@ export default {
   font-family: 'Fira Sans', sans-serif;
   font-size: 40px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 145.8%;
   background: var(--background_linear);
   background-clip: text;
